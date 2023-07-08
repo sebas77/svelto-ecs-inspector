@@ -1,12 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <PackageId>AkroGame.ECS.Analyzer</PackageId>
     <Authors>AkroGame</Authors>
     <Company>AkroGame</Company>
     <PackageDescription>Code generator for Svelto ECS Inspector tool</PackageDescription>
     <RepositoryUrl>https://github.com/akrogame/svelto-ecs-inspector</RepositoryUrl>
+    <LangVersion>9</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
